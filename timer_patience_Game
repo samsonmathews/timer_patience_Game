@@ -1,3 +1,4 @@
+import time
 input('This is a guessing game of 5 seconds.\n'
       'The game starts when you hit \"Enter\" key\n '
       'then you have to guess when the 5 seconds \n'
