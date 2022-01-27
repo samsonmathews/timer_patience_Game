@@ -1,0 +1,16 @@
+input('This is a guessing game of 5 seconds.\n'
+      'The game starts when you hit \"Enter\" key\n '
+      'then you have to guess when the 5 seconds \n'
+      'are over.\n'
+      'So to start, please press the \"Enter\" Key!')
+start_time=time.time()
+input('Now, hit the \"Enter\" key when you feel that its 5 seconds')
+end_time=time.time()
+
+total_time=end_time - start_time
+if total_time>5:
+    print(f'{total_time-5} seconds slow!')
+elif total_time==5:
+    print('you are on time!')
+else:
+    print(f'{5-total_time} seconds early!')
